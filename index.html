@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <!-- Aarsh Saxena 21bec001 -->
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">
+                <img src="logo.jpeg" height="28" alt="CoolBrand">
+                Weather In My City
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <!-- <div class="navbar-nav">
+                    
+                </div> -->
+                <div class="navbar-nav ms-auto">
+                    <a href="#home" class="nav-item nav-link">Home</a>
+                    <a href="#about-us" class="nav-item nav-link">About Us</a>
+                    <a href="#contact-us" class="nav-item nav-link">Contact Us</a>
+
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- Weather search  -->
+    <section id="home">
+        <div class="search">
+            <form>
+                <input type="text" placeholder="City" id="city">
+                <button type="submit" id="submit">Search</button>
+            </form>
+        </div>
+        <div class="head">
+            <h1>Weather for <span id="cityname"></span></h1>
+        </div>
+        <!-- Aarsh Saxena 21bec001 -->
+        <!-- observations -->
+        <div class="observations">
+            <span class="details">
+                <h5>Humidity</h5>
+                <label for="humidity">Humidity: <span id="humidity"></span></label>
+                <label for="cloud_pct">Cloud Pct: <span id="cloud_pct"></label>
+
+            </span>
+
+            <span class="details">
+                <h5>Temperature</h5>
+                <label for="temp">Temp: <span id="temp"></span>&degC &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Feels like: <span
+                        id="feels_like"></span>&degC</label>
+                <label for="max_temp">Max: <span id="max_temp"></span>&degC &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Min: <span
+                        id="min_temp"></span>&degC</label>
+            </span>
+
+
+            <span class="details">
+                <h5>Wind</h5>
+                <label for="wind_degrees">wind_degrees: <span id="wind_degrees"></span>&deg</label>
+                <label for="wind_speed">Wind Speed: <span id="wind_speed"></span>knots</label>
+            </span>
+        </div>
+    </section>
+    <!-- Aarsh Saxena 21bec001 -->
+    <!-- gallary -->
+
+    <!-- about -->
+    <section id="about-us">
+        <div class="head">
+            <h1>About Us</h1>
+        </div>
+        <div class="about">
+            <p><br>
+                Weather In My City. <br><br>
+                At Weather In My City, we are passionate about bringing you accurate and up-to-date weather information
+                at your fingertips. Whether you're planning a weekend getaway, preparing for a family picnic, or just
+                curious about the weather in your area, we've got you covered! <br><br>
+
+                Our website is built using the latest web technologies, combining the power of HTML, CSS, and JavaScript
+                to create a seamless user experience. By leveraging cutting-edge APIs, we source data from reliable
+                weather providers worldwide, ensuring that you receive the most precise and reliable forecasts possible.
+                <br><br>
+                At Weather In My City, our mission is to empower you with accurate weather information to make the most
+                of every day, no matter the weather. We are constantly striving to improve and add new features to
+                enhance your experience, making us your go-to weather forecast platform. <br><br>
+
+                Thank you for choosing WeatherMasters. Let's weather the storms together!
+            </p>
+        </div>
+    </section>
+    <!-- Aarsh Saxena 21bec001 -->
+    <div style="width: 100%; height: 50px;"> </div>
+    <footer class="bg-light text-center text-white" id="contact-us">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Instagram -->
+                <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac;"
+                    href="https://www.instagram.com/aarshsaxena9/" role="button"><i class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn text-white btn-floating m-1" style="background-color: #0082ca;"
+                    href="https://www.linkedin.com/in/aarshsaxena/" role="button"><i class="fab fa-linkedin-in"></i></a>
+                <!-- Github -->
+                <a class="btn text-white btn-floating m-1" style="background-color: #333333;"
+                    href="https://github.com/aarshsaxena/" role="button"><i class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2023 Copyright:
+            <a class="text-white" href="#">Weather In My City</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Aarsh Saxena 21bec001 -->
+    <script src="script1.js"></script>
+</body>
+
+</html>
