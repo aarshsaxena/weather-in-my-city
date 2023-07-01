@@ -27,9 +27,9 @@ const weather = (city) => {
 
             humidity.innerHTML = response.humidity
 
-            max_temp.innerHTML = response.max_temp
+            // max_temp.innerHTML = response.max_temp
 
-            min_temp.innerHTML = response.min_temp
+            // min_temp.innerHTML = response.min_temp
 
             // /* <!-- Aarsh Saxena 21bec001 --> */
             temp.innerHTML = response.temp
