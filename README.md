@@ -8,6 +8,12 @@ This website is built using the latest web technologies, combining the power of 
 
 
 
+## Screenshots
+
+![Screenshot](https://github.com/aarshsaxena/weather-in-my-city/blob/main/Screenshot1.png)
+
+
+
 ## Features
 
 - Precission upto 90%.
